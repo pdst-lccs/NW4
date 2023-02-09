@@ -1,3 +1,5 @@
+# Program to perform a linear search in a list
+
 # linearSearch function
 # takes two parameters: num is the target value, myList is the list to search in
 # if target value found, returns position (index) of 'num'; otherwise, returns -1
@@ -7,13 +9,13 @@ def linearSearch(num, myList):
             return i
     return -1
 
-#initialise the list
+# PYTHON STARTS EXECUTING FROM HERE ...
 listToSearch = [1,2,3,4,5,6,7,8,9,10]
 
 userNum = int(input("Enter the number you want to find:"))
 
-#function call
+# function call
 position = linearSearch(userNum, listToSearch)
 
-#display the result of the linear search
+# display the result of the linear search
 print("The number is at position", position)

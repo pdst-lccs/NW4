@@ -16,6 +16,4 @@ def halfAdder(x,y):  #function takes in two parameters
 halfAdder(0,0)
 halfAdder(0,1)
 halfAdder(1,0)
-halfAdder(1,1)
-
-    
+halfAdder(1,1)  

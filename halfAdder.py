@@ -1,6 +1,8 @@
-#Irene Stone
-#March 2023
-#Half-Adder Python
+# Event: LCCS National Workshop 4
+# Date: 2023
+# Author: Professional Development Service for Teachers
+# eMail: computerscience@pdst.ie
+# Half-Adder in Python
 
 #defining a function called halfAdder
 def halfAdder(x,y):  #function takes in two parameters
